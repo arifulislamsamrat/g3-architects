@@ -39,7 +39,7 @@
 
   
 }
-@media screen and (max-width:576px){
+@media screen and (max-width:576px) and (min-width:375px){
     .nav{
         margin: 0px;
         padding: 20px 20px 20px 20px;
@@ -51,6 +51,7 @@
      ul{
         grid-template-columns: repeat(1,1fr);
         justify-content: start;
+        scale: 0.5;
         
         
     }
@@ -92,7 +93,7 @@ text-align: center;
     margin:0% 35%;
 }
 /* responsiveness mobile screen  */
-@media screen and (max-width:576px) {
+@media screen and (max-width:576px) and (min-width:375px) {
     .banner-talkies button ,button{
         margin: 0% 20%;
         width: 150px;
@@ -163,7 +164,7 @@ text-align: center;
 }
 /* feature talkies responsiveness */
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:576px) and (min-width:375px) {
     .container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -239,7 +240,7 @@ text-align: center;
     height: 100%;
 }
 /* responosiveness of feature group */
-@media screen and (max-width:576px) {
+@media screen and (max-width:576px) and (min-width:375px) {
     .all-feature-section{
         grid-template-columns: repeat(1,1fr);
         
@@ -249,7 +250,7 @@ text-align: center;
          */
         position: relative;
         width: 300px;
-        margin: 10% -25%;
+        margin: 0% -25%;
         scale: 0.5;
 
     
@@ -299,7 +300,7 @@ text-align: center;
     background-color: aquamarine;
     box-shadow: 5px 5px 15px gainsboro;
 }
-@media screen and (max-width:576px) {
+@media screen and (max-width:576px) and (min-width:375px) {
    .fact-group{
     grid-template-columns: repeat(1,1fr);
    }
@@ -337,7 +338,7 @@ text-align: center;
     filter: grayscale(1);
     /* border: 1px solid red; */
 }
-@media screen and (max-width:576px) {
+@media screen and (max-width:576px) and (min-width:375px) {
     .image-frame{
         grid-template-columns: repeat(1,1fr);
         margin-left: 35%;
@@ -418,7 +419,7 @@ hr{
     border: 2px solid orange;
     background-color: #FF900E;
 }
-@media screen and (max-width:576px) {
+@media screen and (max-width:576px) and (min-width:375px) {
     .reviews{
         grid-template-columns: repeat(1,1fr);
         
