@@ -8,7 +8,8 @@
 /* Styling heading */
 .header{
     background-color: #FF900E1A;
-   
+    margin: 0;
+    padding: 0;
     
 }
 .logo h1{
@@ -36,10 +37,7 @@
     
     
 
-    /* list-style: none;
-    display: flex;
-    gap: 20px;
-    justify-content: flex-end; */
+  
 }
 @media screen and (max-width:576px){
     .nav{
@@ -184,9 +182,7 @@ text-align: center;
         text-align: center;
         
     }
-    .common-btn{
-        
-    }
+    
 }
 
 /* All feature section styling */
@@ -230,13 +226,9 @@ text-align: center;
 .experience-btn{
     width: 22%;
     height: 100px;
-    margin: 0% 40%;
-    /* position: absolute;
-    top: 330%;
-    left: 10%; */
     position: relative;
     top: -130px;
-    left: 100px;
+    left: 50%;
 }
 
 
@@ -313,8 +305,132 @@ text-align: center;
 
     
 }
+/* sponsor styles started  */
+
+.sponsors{
+    margin: 0% 14%;
+    /* border: 1px solid red; */
+
+}
+.sponsor-talkies{
+    text-align: center;
+    padding:0% 25%;
+    margin-bottom: 40px;
+    /* border: 1px solid red; */
+    
+}
+.sponsor-talkies p{
+    margin-top: 20px;
+    color: #727272A5;
+}
+.image-frame{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    /* border: 1px solid red; */
+    margin-left: 50px;
+    
+    
+}
+.image-frame img{
+    width: 60%;
+    filter: grayscale(1);
+    /* border: 1px solid red; */
+}
+@media screen and (max-width:576px) {
+    .image-frame{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 35%;
+        gap: 30px;
+        width: 50%;
+    }
+    
+}
+/* footer design started */
+.foot{
+    background-color: #FF900E1A;
+    padding: 0% 14%;
+    height: 50px;
+    margin-top: 80px;
+
+}
+.foot p{
+    font-size: 10px;
+    color: #727272;
+    text-align: center;
+    padding-top: 35px;
+
+}
 
 
+/* extra section */
+
+.user-reviews{
+    margin: 0% 14%;
+}
+.reviews{
+    display: grid;
+    margin-bottom: 80px;
+    grid-template-columns: repeat(3,1fr);
+}
+.reviewer{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 10px;
+    
+}
+.reviewer:hover{
+    
+    transform: scale(1.10);
+    transition: transform 0.5s ease ,background-color 1s ease;
+    background-color: #e28113;
+    color: white;
+    
+}
+.reviewer p{
+    color: #727272;
+}
+
+#special-review{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #727272;
+}
+#special-review img{
+    width: 100%;
+}
+.text-review{
+    color: #FF900E;
+}
+.user-reviews h2{
+    text-align: center;
+    
+}
+hr{
+    margin: 1% 40%;
+    border: 2px solid orange;
+    background-color: #FF900E;
+}
+@media screen and (max-width:576px) {
+    .reviews{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .cart{
+        border-left: 3px solid #FF900E;
+    }
+
+    .reviewer{
+        scale: 0.8;
+        margin: 0;
+    }
+}
 
 
 
