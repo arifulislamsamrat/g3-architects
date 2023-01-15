@@ -249,8 +249,9 @@ text-align: center;
          */
         position: relative;
         width: 300px;
-        margin: 0% 22%;
-        left: 20px;
+        margin: 10% -25%;
+        scale: 0.5;
+
     
     }
     
